@@ -19,7 +19,7 @@ public class EatTarget : MonoBehaviour
         if (other.name == "player"){
 
             Destroy(this.gameObject);
-            other.gameObject.transform.localScale += new Vector3(1,1,1);
+            other.gameObject.transform.localScale += new Vector3(0.5f,0.5f,0.5f);
 
         }
 
