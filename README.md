@@ -1,6 +1,7 @@
 # Assignment3
 
 Game: The Electron Quest (Prototype)
+Develop with Unity edition 2021.3.29f1
 
 Logline:
   Our game is a 2D platformer game where platforms have electric repulsion to collect electrons. 
@@ -19,10 +20,10 @@ Game Description:
 
 Control Description:
 
-1. left arrow key: moving left
-2. right arrow key: moving right
-3. up arrow key: moving up
-4. down arrow key: moving down
+  1. left arrow key: moving left
+  2. right arrow key: moving right
+  3. up arrow key: moving up
+  4. down arrow key: moving down
 
 
 
