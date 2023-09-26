@@ -1,6 +1,6 @@
-# Assignment3
+# Game: The Electron Quest (Prototype)
 
-Game: The Electron Quest (Prototype)
+
 Develop with Unity edition 2021.3.29f1
 
 Logline:
