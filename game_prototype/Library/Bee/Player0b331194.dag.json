@@ -13715,35 +13715,31 @@
       "DebugActionIndex": 382
     },
     {
-      "Annotation": "Brotli WebGL Builds/Build/WebGL Builds.framework.js.br",
-      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Brotli/macos/brotli\" -o \"WebGL Builds/Build/WebGL Builds.framework.js.br\" -i \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js\" --comment \"UnityWeb Compressed Content (brotli)\"",
+      "Annotation": "CopyFiles WebGL Builds/Build/WebGL Builds.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "WebGL Builds/Build/WebGL Builds.framework.js.br"
+        "WebGL Builds/Build/WebGL Builds.framework.js"
       ],
       "ToBuildDependencies": [
         382
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
       "DebugActionIndex": 383
     },
     {
-      "Annotation": "Brotli WebGL Builds/Build/WebGL Builds.wasm.br",
-      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Brotli/macos/brotli\" -o \"WebGL Builds/Build/WebGL Builds.wasm.br\" -i \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm\" --comment \"UnityWeb Compressed Content (brotli)\"",
+      "Annotation": "CopyFiles WebGL Builds/Build/WebGL Builds.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "WebGL Builds/Build/WebGL Builds.wasm.br"
+        "WebGL Builds/Build/WebGL Builds.wasm"
       ],
       "ToBuildDependencies": [
         380
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
       "DebugActionIndex": 384
     },
     {
@@ -13816,24 +13812,22 @@
       "DebugActionIndex": 388
     },
     {
-      "Annotation": "Brotli WebGL Builds/Build/WebGL Builds.data.br",
-      "Action": "\"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Brotli/macos/brotli\" -o \"WebGL Builds/Build/WebGL Builds.data.br\" -i \"Library/Bee/artifacts/WebGL/webgl.data\" --comment \"UnityWeb Compressed Content (brotli)\"",
+      "Annotation": "CopyFiles WebGL Builds/Build/WebGL Builds.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "WebGL Builds/Build/WebGL Builds.data.br"
+        "WebGL Builds/Build/WebGL Builds.data"
       ],
       "ToBuildDependencies": [
         388
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
       "DebugActionIndex": 389
     },
     {
       "Annotation": "PreprocessJS WebGL Builds/Build/WebGL Builds.loader.js",
-      "Action": "cd \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/Users/kaiyuanwang/Documents/GitHub/Assignment3/game\\x5fprototype/WebGL Builds/Build/WebGL Builds.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='game\\x5fprototype'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1024\" \"HEIGHT=450\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL Builds.data.br'\" \"FRAMEWORK_FILENAME='WebGL Builds.framework.js.br'\" \"CODE_FILENAME='WebGL Builds.wasm.br'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.29f1'\" \"LOADER_FILENAME='WebGL Builds.loader.js'\"",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/Users/kaiyuanwang/Documents/GitHub/Assignment3/game\\x5fprototype/WebGL Builds/Build/WebGL Builds.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='game\\x5fprototype'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1024\" \"HEIGHT=450\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL Builds.data'\" \"FRAMEWORK_FILENAME='WebGL Builds.framework.js'\" \"CODE_FILENAME='WebGL Builds.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.29f1'\" \"LOADER_FILENAME='WebGL Builds.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -13845,7 +13839,7 @@
     },
     {
       "Annotation": "PreprocessJS WebGL Builds/index.html",
-      "Action": "cd \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/Users/kaiyuanwang/Documents/GitHub/Assignment3/game\\x5fprototype/WebGL Builds/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='game\\x5fprototype'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1024\" \"HEIGHT=450\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL Builds.data.br'\" \"FRAMEWORK_FILENAME='WebGL Builds.framework.js.br'\" \"CODE_FILENAME='WebGL Builds.wasm.br'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.29f1'\" \"LOADER_FILENAME='WebGL Builds.loader.js'\"",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/Users/kaiyuanwang/Documents/GitHub/Assignment3/game\\x5fprototype/WebGL Builds/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='game\\x5fprototype'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1024\" \"HEIGHT=450\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL Builds.data'\" \"FRAMEWORK_FILENAME='WebGL Builds.framework.js'\" \"CODE_FILENAME='WebGL Builds.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.29f1'\" \"LOADER_FILENAME='WebGL Builds.loader.js'\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -13912,7 +13906,7 @@
     },
     {
       "Annotation": "PreprocessJS WebGL Builds/TemplateData/style.css",
-      "Action": "cd \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/Users/kaiyuanwang/Documents/GitHub/Assignment3/game\\x5fprototype/WebGL Builds/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='game\\x5fprototype'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1024\" \"HEIGHT=450\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL Builds.data.br'\" \"FRAMEWORK_FILENAME='WebGL Builds.framework.js.br'\" \"CODE_FILENAME='WebGL Builds.wasm.br'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.29f1'\" \"LOADER_FILENAME='WebGL Builds.loader.js'\"",
+      "Action": "cd \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools\" && \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/Users/kaiyuanwang/Documents/GitHub/Assignment3/game\\x5fprototype/WebGL Builds/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='game\\x5fprototype'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=1024\" \"HEIGHT=450\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='WebGL Builds.data'\" \"FRAMEWORK_FILENAME='WebGL Builds.framework.js'\" \"CODE_FILENAME='WebGL Builds.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=33554432\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.29f1'\" \"LOADER_FILENAME='WebGL Builds.loader.js'\"",
       "Inputs": [
         "/Applications/Unity/Hub/Editor/2021.3.29f1/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
