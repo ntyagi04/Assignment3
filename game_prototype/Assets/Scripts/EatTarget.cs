@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class EatTarget : MonoBehaviour
 {
-    public float flag = 0f;
+    public static float flag = 0f;
     public string gameOver;
 
     // Start is called before the first frame update

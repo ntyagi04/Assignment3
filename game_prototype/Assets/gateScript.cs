@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class gateScript : MonoBehaviour
 {
-    EatTarget test;
-    // Start is called before the first frame update
+    public EatTarget test;    // Start is called before the first frame update
     void Start()
     {
         
@@ -17,10 +16,10 @@ public class gateScript : MonoBehaviour
 
     {
         test = new EatTarget();
-        print(test.flag);
+        print(EatTarget.flag);
         if (gate.name == "player")
         {
-            if (test.flag == 1)
+            if (EatTarget.flag == 3)
             {
                 SceneManager.LoadSceneAsync(2);
             }
