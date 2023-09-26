@@ -1422,5 +1422,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Game Over.unity
-  playerPath: /Users/kaiyuanwang/Documents/GitHub/Assignment3/game_prototype/WebGL
-    Builds
+  playerPath: /Users/kaiyuanwang/Documents/GitHub/Assignment3/Build
