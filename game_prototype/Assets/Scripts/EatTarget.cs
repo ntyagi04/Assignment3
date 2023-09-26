@@ -1,9 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class EatTarget : MonoBehaviour
 {
+    public float flag = 0f;
+    public string gameOver;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,10 +26,14 @@ public class EatTarget : MonoBehaviour
 
             Destroy(this.gameObject);
             other.gameObject.transform.localScale += new Vector3(0.5f,0.5f,0.5f);
+            flag += 1;
 
         }
+        print(flag);
+
 
     }
+
 
     // Update is called once per frame
     void Update()

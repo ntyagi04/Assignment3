@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Vertical Positive
   - Platform
+  - Gate
   layers:
   - Default
   - TransparentFX
